@@ -1,0 +1,85 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* text-align inside the width of the element */
+    color: #363636;
+}
+
+header {
+    /* text-align: center; */
+    /* text align only works with no dimensions, it goes to the parent element*/
+    width: 28rem;
+    margin: 0 auto;
+    /* now use the margin property to center */
+}
+
+h2 {
+    background-color: yellow;
+}
+
+img {
+    width: 40vw;
+    border-left: orangered 0.5em solid;
+    border-radius: 3px;
+}
+
+h3 {
+    font-style: italic;
+}
+
+main {
+    background-color: #D0CECE;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 0 5vw;
+    /* by using just margin it is not really centered? */
+    /* width: 90%; */
+    /* the max-width/width is a dimension so it will not apply text-align from the body */
+}
+
+ul {
+    /* padding-left: 0; */
+    /* you don't need this because once you give it a width it will be taken cared of */
+    width: 75%;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+    margin: 0.8rem 0;
+}
+
+blockquote {
+    background-color: #DFDDDD;
+    width: 50%;
+    height: 30%;
+    margin: 0 auto;
+    padding: 26px 46px 46px 46px;
+    /* the top padding will be the same once it add's the padding from paragraph */
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: left;
+}
+
+blockquote p {
+    text-align: left;
+}
+/* added a p tag inside the blockquote element so the cite will be on a new line as paragraph is a block element and cite is an inline element */
+
+footer {
+    background-color: yellow;
+    /* height: 80px; */
+    /* height will grow with the content */
+    width: 100%;
+    /* text-align: center; */
+    padding: 2rem;
+    margin: 5px 0;
+}
+
+footer p {
+    /* text-align: center; */
+    /* remember you use text-align in the parent element */
+    padding: auto 0;
+    margin: 0 auto;
+}
