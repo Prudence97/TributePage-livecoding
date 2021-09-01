@@ -1,5 +1,5 @@
 # TributePage
-For this exercise we will make a tribute page similar to this example: https://digitalcareerinstitute.github.io/UIB-box-model-tribute-page/
+For this exercise we will live code with the class to make a page exactly like this example: https://digitalcareerinstitute.github.io/UIB-box-model-tribute-page/
 Specifications
 - include an image
 - include a list, ordered or unordered
@@ -7,7 +7,7 @@ Specifications
 - use semantic HTML - header, main, footer etc.
 - style the page to the best of your abilities
 - make sure to properly use padding, margin, width and height
-- be creative!
+- do not use the inspector tool
 
 Bonus
 Publish your page on GitHub pages to share with everyone
